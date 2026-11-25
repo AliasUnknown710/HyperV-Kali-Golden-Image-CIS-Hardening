@@ -1,0 +1,98 @@
+<svg class="dark " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 957.06 798.1" width="957.06" height="798.1" id="m29ec27__root" data-diagram-type="flowchart">
+  <style data-mercat-style="universal">.mercat text{font-family:'Google Sans',Roboto,Arial,sans-serif;fill:var(--m-text);dominant-baseline:central}.mercat .m-node .m-shape{fill:var(--m-node-fill);stroke:var(--m-node-stroke);stroke-width:1.5px}.mercat .m-edge .m-path{fill:none;stroke:var(--m-line);stroke-width:1.5px}.mercat .m-edge--dotted .m-path,.mercat .m-edge--dotted{stroke-dasharray:2 3}.mercat .m-edge-label .m-pill-bg,.mercat .m-edge-label .m-shape{fill:var(--m-pill-bg);stroke:var(--m-pill-border);stroke-width:1px}.mercat .m-edge-label .m-label{fill:var(--m-text-sec)}.mercat .t-label{font-size:13px;font-weight:500}.mercat .t-edge{font-size:11px;font-weight:400}</style>
+  <style data-mercat-style="theme-light">#m29ec27__root{--m-text:#1f1f1f;--m-text-sec:#797979;--m-line:#545454;--m-node-fill:#f8f9fa;--m-node-stroke:#747775;--m-pill-bg:#fbfbfb;--m-pill-border:#d7d7d7}</style>
+  <style data-mercat-style="theme-dark">#m29ec27__root.dark{--m-text:#e3e3e3;--m-text-sec:#959595;--m-line:#bfbfbf;--m-node-fill:#2d2e30;--m-node-stroke:#8e918f;--m-pill-bg:#232323;--m-pill-border:#424242}</style>
+  <style data-mercat-style="type">#m29ec27__root .m-node .flowchart-divider{fill:none;stroke:var(--m-node-stroke);stroke-width:1px}#m29ec27__root .m-edge--dotted .m-path{stroke-dasharray:3 3}</style>
+  <g class="mercat mercat-flowchart" transform="translate(185.64, -35)">
+    <defs>
+      <marker id="m29ec27__mk-arrow" refX="9.45" refY="3.4" markerWidth="10.8" markerHeight="6.8" markerUnits="userSpaceOnUse" orient="auto-start-reverse">
+        <path d="M 0 0 L 10.8 3.4 L 0 6.8 Z" class="m-marker" fill="var(--m-line)" stroke="none"/>
+      </marker>
+    </defs>
+    <g class="m-node m-edge" id="m29ec27__edge__ISO__Staging__0" data-role="connector">
+      <path d="M 130.79 95.35 L 130.79 133.8 Q 130.79 139.8, 136.79 139.8 L 269.57 139.8 Q 275.57 139.8, 275.57 145.8 L 275.57 162.45" class="m-path" marker-end="url(#m29ec27__mk-arrow)"/>
+    </g>
+    <g class="m-node m-edge" id="m29ec27__edge__Manifest__Staging__0" data-role="connector">
+      <path d="M 330.33 95.35 L 330.33 162.45" class="m-path" marker-end="url(#m29ec27__mk-arrow)"/>
+    </g>
+    <g class="m-node m-edge" id="m29ec27__edge__CIS__Staging__0" data-role="connector">
+      <path d="M 615.25 103.8 L 615.25 133.8 Q 615.25 139.8, 609.25 139.8 L 391.09 139.8 Q 385.09 139.8, 385.09 145.8 L 385.09 162.45" class="m-path" marker-end="url(#m29ec27__mk-arrow)"/>
+    </g>
+    <g class="m-node m-edge" id="m29ec27__edge__Staging__Golden__0" data-role="connector">
+      <path d="M 293.83 200.7 L 293.83 230.7 Q 293.83 236.7, 287.83 236.7 L 154.34 236.7 Q 148.34 236.7, 148.34 242.7 L 148.34 319.35" class="m-path" marker-end="url(#m29ec27__mk-arrow)"/>
+    </g>
+    <g class="m-node m-edge" id="m29ec27__edge__Golden__Eng1__0" data-role="connector">
+      <path d="M 129.8 390.29 L 129.8 420.5 Q 129.8 426.5, 123.8 426.5 L -15.15 426.5 Q -21.15 426.5, -21.15 432.5 L -21.15 509.15" class="m-path" marker-end="url(#m29ec27__mk-arrow)"/>
+    </g>
+    <g class="m-node m-edge" id="m29ec27__edge__Golden__Eng2__0" data-role="connector">
+      <path d="M 166.88 390.29 L 166.88 420.5 Q 166.88 426.5, 172.88 426.5 L 311.83 426.5 Q 317.83 426.5, 317.83 432.5 L 317.83 509.15" class="m-path" marker-end="url(#m29ec27__mk-arrow)"/>
+    </g>
+    <g class="m-node m-edge m-edge--dotted" id="m29ec27__edge__Staging__SharedSwitch__0" data-role="connector">
+      <path d="M 366.84 200.7 L 366.84 230.7 Q 366.84 236.7, 372.84 236.7 L 506.32 236.7 Q 512.32 236.7, 512.32 242.7 L 512.32 696.75 Q 512.32 702.75, 506.32 702.75 L 464.31 702.75" class="m-path" marker-end="url(#m29ec27__mk-arrow)"/>
+    </g>
+    <g class="m-node m-edge" id="m29ec27__edge__Eng1__SharedSwitch__0" data-role="connector">
+      <path d="M -21.15 564.3 L -21.15 594.3 Q -21.15 600.3, -15.15 600.3 L 267.45 600.3 Q 273.45 600.3, 273.45 606.3 L 273.45 682.95" class="m-path" marker-end="url(#m29ec27__mk-arrow)"/>
+    </g>
+    <g class="m-node m-edge" id="m29ec27__edge__Eng2__SharedSwitch__0" data-role="connector">
+      <path d="M 362.21 564.3 L 362.21 682.95" class="m-path" marker-end="url(#m29ec27__mk-arrow)"/>
+    </g>
+    <g class="m-node m-edge" id="m29ec27__edge__SharedSwitch__USBNIC__0" data-role="connector">
+      <path d="M 317.83 721.2 L 317.83 779.85" class="m-path" marker-end="url(#m29ec27__mk-arrow)"/>
+    </g>
+    <g class="m-node m-node--rect" id="m29ec27__node__ISO" data-role="vertex">
+      <rect x="50" y="58.45" width="161.59" height="36.9" class="m-shape"/>
+      <text x="130.79" y="76.9" class="m-label t-label" text-anchor="middle">Kali Linux Rolling ISO</text>
+    </g>
+    <g class="m-node m-node--rect" id="m29ec27__node__Manifest" data-role="vertex">
+      <rect x="251.59" y="58.45" width="182.49" height="36.9" class="m-shape"/>
+      <text x="342.83" y="76.9" class="m-label t-label" text-anchor="middle">configs/core-pentest.txt</text>
+    </g>
+    <g class="m-node m-node--rect" id="m29ec27__node__CIS" data-role="vertex">
+      <rect x="474.08" y="50" width="282.34" height="53.8" class="m-shape"/>
+      <text x="615.25" y="76.9" class="m-label t-label" text-anchor="middle"><tspan x="615.25" dy="-8.45px">scripts/Invoke-KaliCISHardening.sh</tspan><tspan x="615.25" dy="16.9px">CIS Debian L1 + Kali Rolling Adjustments</tspan></text>
+    </g>
+    <g class="m-node m-node--rect" id="m29ec27__node__Staging" data-role="vertex">
+      <rect x="208.82" y="163.8" width="243.03" height="36.9" class="m-shape"/>
+      <text x="330.33" y="182.25" class="m-label t-label" text-anchor="middle">Staging Build VM on Hyper-V Host</text>
+    </g>
+    <g class="m-node m-node--cylinder" id="m29ec27__node__Golden" data-role="vertex">
+      <path d="M 55.64 331.17 L 55.64 380.03 A 92.7 10.47 0 0 0 241.04 380.03 L 241.04 331.17 Z" class="m-shape"/>
+      <ellipse cx="148.34" cy="331.17" rx="92.7" ry="10.47" class="m-shape"/>
+      <text x="148.34" y="366.07" class="m-label t-label" text-anchor="middle"><tspan x="148.34" dy="-8.45px">Kali-Golden-Master.vhdx</tspan><tspan x="148.34" dy="16.9px">Read-Only Master</tspan></text>
+    </g>
+    <g class="m-node m-node--rect" id="m29ec27__node__Eng1" data-role="vertex">
+      <rect x="-170.64" y="510.5" width="298.98" height="53.8" class="m-shape"/>
+      <text x="-21.15" y="537.4" class="m-label t-label" text-anchor="middle"><tspan x="-21.15" dy="-8.45px">Kali-Eng-01</tspan><tspan x="-21.15" dy="16.9px">Unique Hostname / Keys / Machine-ID / PW</tspan></text>
+    </g>
+    <g class="m-node m-node--rect" id="m29ec27__node__Eng2" data-role="vertex">
+      <rect x="168.34" y="510.5" width="298.98" height="53.8" class="m-shape"/>
+      <text x="317.83" y="537.4" class="m-label t-label" text-anchor="middle"><tspan x="317.83" dy="-8.45px">Kali-Eng-02</tspan><tspan x="317.83" dy="16.9px">Unique Hostname / Keys / Machine-ID / PW</tspan></text>
+    </g>
+    <g class="m-node m-node--subroutine" id="m29ec27__node__SharedSwitch" data-role="vertex">
+      <rect x="172.7" y="684.3" width="290.26" height="36.9" class="m-shape"/>
+      <line x1="178.7" y1="684.3" x2="178.7" y2="721.2" class="flowchart-divider"/>
+      <line x1="456.96" y1="684.3" x2="456.96" y2="721.2" class="flowchart-divider"/>
+      <text x="317.83" y="702.75" class="m-label t-label" text-anchor="middle">Hyper-V: Dedicated-USB-External-Switch</text>
+    </g>
+    <g class="m-node m-node--stadium" id="m29ec27__node__USBNIC" data-role="vertex">
+      <rect x="199.43" y="781.2" width="236.8" height="36.9" rx="18.45" ry="18.45" class="m-shape"/>
+      <text x="317.83" y="799.65" class="m-label t-label" text-anchor="middle">Secondary USB Wireless Adapter</text>
+    </g>
+    <g class="m-edge-label">
+      <rect x="97.05" y="260.4" width="102.57" height="36.6" rx="2" ry="2" class="m-pill-bg"/>
+      <text x="148.34" y="278.7" class="m-label t-edge" text-anchor="middle"><tspan x="148.34" dy="-7.15px">Generalize &amp; Seal</tspan><tspan x="148.34" dy="14.3px">--seal</tspan></text>
+    </g>
+    <g class="m-edge-label">
+      <rect x="-75.5" y="457.35" width="108.7" height="22.3" rx="11.15" ry="11.15" class="m-pill-bg"/>
+      <text x="-21.15" y="468.5" class="m-label t-edge" text-anchor="middle">Differencing VHDX</text>
+    </g>
+    <g class="m-edge-label">
+      <rect x="263.48" y="457.35" width="108.7" height="22.3" rx="11.15" ry="11.15" class="m-pill-bg"/>
+      <text x="317.83" y="468.5" class="m-label t-edge" text-anchor="middle">Differencing VHDX</text>
+    </g>
+    <g class="m-edge-label">
+      <rect x="452.25" y="458.58" width="120.15" height="22.3" rx="11.15" ry="11.15" class="m-pill-bg"/>
+      <text x="512.32" y="469.73" class="m-label t-edge" text-anchor="middle">Update Window Only</text>
+    </g>
+  </g>
+</svg>
